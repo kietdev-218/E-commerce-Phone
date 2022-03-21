@@ -1,0 +1,22 @@
+.container-form{width:80%; margin:auto; padding:20px 0}
+.dong-input{width:100%; padding:10px 0}
+.ten-input{width:30%; float:left; font-size:20px}
+.thanh-input{width:70%; float:left}
+.khung-input{width:100%; border:#999 1px solid; box-sizing:border-box; height:30px}
+.khung-input:focus{border:#09F 1px solid}
+.nut-submit{width:100%; background-color:#09F; color:#FFF; font-weight:bold; height:40px; 
+border-radius:3px; border:none; cursor:pointer;
+transition:all 200ms linear}
+
+.nut-submit:hover{background-color:#03F}
+.radio{height:12px; width:12px}
+.thanh-radio{height:15px; float:left; width:70%}
+.remember{height:15px; width:15px}
+.thanh-remember{height:15px}
+.ngay_sinh,.thang_sinh,.nam_sinh{height:30px; margin-right:25px}
+.ykien_lh{width:100%; box-sizing:border-box; border:#999 solid 1px}
+.ykien_lh:focus{border:#09F 1px solid}
+
+.bao_loi{width:100%; color:#F00; font-style:italic; display:none}
+.thanh-loi{width:70%; float:right}
+.bao_loi_php{width:100%; color:#F00; font-style:italic}

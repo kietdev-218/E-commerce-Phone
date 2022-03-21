@@ -1,0 +1,27 @@
+#Turn on the rewriting engine
+ReWriteEngine on
+#RewriteRule ^noi-dung$ page.php
+RewriteRule ^gioi_thieu$ about.php
+
+RewriteRule ^lien_he$ contact.php
+RewriteRule ^tin_tuc$ news.php
+RewriteRule ^tin_tuc/page/([a-zA-Z0-9-_]+)$ news.php?page=$1
+RewriteRule ^bt_([a-zA-Z0-9-_]+).([0-9]+).html$ ban_tin.php?ma_bai_viet=$2
+
+RewriteRule ^dang_nhap-dang_ky$ login_register.php
+RewriteRule ^gio_hang$ gio_hang.php
+RewriteRule ^dat_hang$ dat_hang.php
+
+#RewriteRule ^san_pham-([0-9]+)$ product.php?ma_mon=$1
+
+RewriteRule ^loai_([a-zA-Z0-9-_]+).([0-9]+)$ products.php?ma_loai=$2
+RewriteRule ^hang_([a-zA-Z0-9-_]+).([0-9]+)$ products.php?ma_nha_san_xuat=$2
+RewriteRule ^khuyen_mai$ products.php?khuyen_mai=1
+RewriteRule ^loai_sp/([0-9]+)/([a-zA-Z0-9-_]+)/([a-zA-Z0-9-_]+)/page/([a-zA-Z0-9-_]+)$ san_pham.php?ma_loai=$1&page=$4
+RewriteRule ^sp_([a-zA-Z0-9-_]+).([0-9]+).html$ product-detail.php?ma_san_pham=$2
+
+# disable directory browsing
+Options All -Indexes
+
+ErrorDocument 404 http://localhost/project3/404.php
+ErrorDocument 403 http://localhost/project3/403.php

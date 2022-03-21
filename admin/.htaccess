@@ -1,0 +1,8 @@
+#Turn on the rewriting engine
+ReWriteEngine on
+
+# disable directory browsing
+Options All -Indexes
+
+ErrorDocument 404 http://localhost/project3/admin/404.html
+ErrorDocument 403 http://localhost/project3/admin/403.html

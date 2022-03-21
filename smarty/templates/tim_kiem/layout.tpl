@@ -1,0 +1,1 @@
+{extends file="bai_viet/layout.tpl"}

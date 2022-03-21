@@ -1,0 +1,32 @@
+.container-big-img{
+	width:80%; margin: auto auto 25px auto
+}
+.item-big,.item-big-act{
+	width:100%
+}
+
+.item-big{
+	display:none
+}
+
+.img-big{
+	width:100%; margin:auto
+}
+.container-thumb{
+	width:95%; margin:auto
+}
+.item-thumb,.item-thumb-act{
+	width:22.5%; float:left; margin-right:1.25%; margin-left:1.25%; margin-bottom:2.5%;
+	box-sizing:border-box
+}
+.item-thumb{
+	border:2px solid transparent
+}
+.item-thumb-act{
+	border:2px solid #9F0
+}
+
+.img-thumb{
+	width:100%; margin:auto; cursor:pointer
+}
+

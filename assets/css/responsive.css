@@ -1,0 +1,6 @@
+.yamm .dropdown-menu{
+	width:660px
+}
+@media (max-width: 993px){
+	.top-cart-row{padding-top:15px}
+}
